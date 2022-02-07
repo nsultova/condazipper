@@ -1,0 +1,8 @@
+name: conda-test-env
+channels:
+  - defaults
+dependencies:
+  - pandas
+  - numpy=1.18
+  - pip
+prefix: /Users/nea/miniconda3/envs/conda-test-env

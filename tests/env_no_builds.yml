@@ -1,0 +1,37 @@
+name: conda-test-env
+channels:
+  - defaults
+dependencies:
+  - blas=1.0
+  - ca-certificates=2020.7.22
+  - certifi=2020.6.20
+  - intel-openmp=2019.4
+  - libcxx=10.0.0
+  - libedit=3.1.20191231
+  - libffi=3.3
+  - libgfortran=3.0.1
+  - mkl=2019.4
+  - mkl-service=2.3.0
+  - mkl_fft=1.1.0
+  - mkl_random=1.1.1
+  - ncurses=6.2
+  - numpy=1.18.5
+  - numpy-base=1.18.5
+  - openssl=1.1.1g
+  - pandas=1.1.1
+  - pip=20.2.2
+  - python=3.8.5
+  - python-dateutil=2.8.1
+  - pytz=2020.1
+  - readline=8.0
+  - setuptools=49.6.0
+  - six=1.15.0
+  - sqlite=3.33.0
+  - tk=8.6.10
+  - wheel=0.35.1
+  - xz=5.2.5
+  - zlib=1.2.11
+  - pip:
+    - pillow==7.2.0
+    - pytesseract==0.3.6
+prefix: /Users/nea/miniconda3/envs/conda-test-env
